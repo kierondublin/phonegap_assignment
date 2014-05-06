@@ -1,0 +1,28 @@
+/* This sets the character type, font, font size and hexadecimal background colours of the style */
+
+@charset "utf-8";
+ 
+body{
+	font: 0.9em Tahoma, Verdana, Arial;
+	line-height:160%;
+	
+	/* #ccc is hex for light grey */
+	background: #ccc;
+}
+ /* The measurements are in pixels */
+#container{
+	width: 1000px;
+	padding: 25px;
+	/* #fff is hex for white */
+	background: #fff;
+	margin: 100px auto 0 auto;
+}
+ 
+h3{
+	margin: 0;
+}
+
+.done-true{
+    text-decoration: line-through;
+    color: grey;
+}
